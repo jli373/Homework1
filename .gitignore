@@ -1,0 +1,6 @@
+public int manhattanDistance(Point other){
+int a=Math.abs(x-other.x);
+int b=Math.abs(y-other.y);
+int c=a+b;
+return c;
+}
